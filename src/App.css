@@ -72,3 +72,14 @@ span.ripple {
   animation: ripple 0.75s linear;
   background-color: rgba(255, 255, 255, 0.5);
 }
+
+@media screen and (max-width: 40em) {
+  img {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .banner h1{
+    font-size: 6vw;
+  }
+}
